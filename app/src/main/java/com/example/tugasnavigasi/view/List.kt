@@ -32,3 +32,25 @@ fun ListPesertaScreen(
             .padding(horizontal = 24.dp, vertical = 32.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Text(
+            text = "List Daftar Peserta",
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black
+        )
+        Spacer(modifier = Modifier.height(32.dp))
+
+        InfoCard(label = "NAMA LENGKAP", value = nama)
+        Spacer(modifier = Modifier.height(16.dp))
+
+        InfoCard(label = "JENIS KELAMIN", value = jenisKelamin)
+        Spacer(modifier = Modifier.height(16.dp))
+
+        InfoCard(label = "STATUS PERKAWINAN", value = statusPerkawinan)
+        Spacer(modifier = Modifier.height(16.dp))
+
+        InfoCard(label = "ALAMAT", value = alamat)
+
+        Spacer(modifier = Modifier.weight(1f))
+
+
