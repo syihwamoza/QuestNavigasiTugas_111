@@ -27,59 +27,7 @@ fun BerandaScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFFF0E9FF)), // Warna background ungu muda
-        verticalArrangement = Arrangement.Center, // Menengahkan semua item secara vertikal
-        horizontalAlignment = Alignment.CenterHorizontally // Menengahkan semua item secara horizontal
+            .background(Color(0xFFF0E9FF)),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Spacer(modifier = Modifier.weight(1f))
-
-        Text(
-            text = "Selamat Datang",
-            fontSize = 32.sp,
-            fontWeight = FontWeight.Bold,
-            fontFamily = FontFamily.Cursive, // Font yang lebih gaya, sesuaikan jika perlu
-            color = Color(0xFF673AB7) // Warna ungu tua
-        )
-
-        Spacer(modifier = Modifier.height(48.dp))
-
-        Image(
-            painter = painterResource(id = R.drawable.download),
-            contentDescription = "Logo Aplikasi Card-List",
-            modifier = Modifier.size(150.dp)
-        )
-
-        Spacer(modifier = Modifier.height(48.dp))
-
-        Text(
-            text = "Moza Kastella",
-            fontSize = 20.sp,
-            fontWeight = FontWeight.Medium,
-            color = Color.Black
-        )
-        Text(
-            text = "20230140111",
-            fontSize = 16.sp,
-            color = Color.Gray,
-            textAlign = TextAlign.Center
-        )
-
-        Spacer(modifier = Modifier.weight(1f))
-
-        Button(
-            onClick = onSubmitClick,
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(horizontal = 24.dp)
-                .height(56.dp),
-            shape = RoundedCornerShape(50),
-            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF673AB7))
-        ) {
-            Text(text = "Submit", fontSize = 16.sp)
-        }
-
-        Spacer(modifier = Modifier.height(32.dp))
-    }
-}
-
-
