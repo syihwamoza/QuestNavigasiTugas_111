@@ -87,5 +87,19 @@ fun InfoCard(label: String, value: String) {
             .background(Color.White)
             .padding(horizontal = 16.dp, vertical = 12.dp)
     ) {
+        Text(
+            text = label,
+            fontSize = 14.sp,
+            color = Color.Gray
+        )
+        Text(
+            text = value,
+            fontSize = 16.sp,
+            color = Color.Black,
+            fontWeight = FontWeight.Medium
+        )
+    }
+}
+
 
 
