@@ -78,3 +78,14 @@ fun ListPesertaScreen(
     }
 }
 
+@Composable
+fun InfoCard(label: String, value: String) {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(12.dp))
+            .background(Color.White)
+            .padding(horizontal = 16.dp, vertical = 12.dp)
+    ) {
+
+
