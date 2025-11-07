@@ -25,3 +25,10 @@ fun ListPesertaScreen(
     onBerandaClick: () -> Unit,
     onFormulirClick: () -> Unit
 ) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color(0xFFF0E9FF))
+            .padding(horizontal = 24.dp, vertical = 32.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
