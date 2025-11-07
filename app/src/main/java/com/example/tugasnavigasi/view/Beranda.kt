@@ -64,6 +64,22 @@ fun BerandaScreen(
 
         Spacer(modifier = Modifier.weight(1f))
 
+        Button(
+            onClick = onSubmitClick,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 24.dp)
+                .height(56.dp),
+            shape = RoundedCornerShape(50),
+            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF673AB7))
+        ) {
+            Text(text = "Submit", fontSize = 16.sp)
+        }
+
+        Spacer(modifier = Modifier.height(32.dp))
+    }
+}
+
 
 
 
