@@ -48,7 +48,6 @@ fun FormulirPendaftaranScreen(
                 .padding(bottom = 32.dp)
         )
 
-        // --- Input Nama Lengkap ---
         Text(text = "NAMA LENGKAP", fontSize = 14.sp, color = Color.DarkGray)
         Spacer(modifier = Modifier.height(8.dp))
         OutlinedTextField(
