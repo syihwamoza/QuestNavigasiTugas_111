@@ -31,3 +31,13 @@ fun BerandaScreen(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Spacer(modifier = Modifier.weight(1f))
+
+        Text(
+            text = "Selamat Datang",
+            fontSize = 32.sp,
+            fontWeight = FontWeight.Bold,
+            fontFamily = FontFamily.Cursive,
+            color = Color(0xFF673AB7)
+        )
+
