@@ -101,6 +101,22 @@ fun InfoCard(label: String, value: String) {
     }
 }
 
+@Preview(showBackground = true)
+@Composable
+fun ListPesertaScreenPreview() {
+    ListPesertaScreen(
+        nama = "Moza Kastella",
+        jenisKelamin = "Perempuan",
+        statusPerkawinan = "Lajang",
+        alamat = "Bantul",
+        onBerandaClick = {},
+        onFormulirClick = {}
+    )
+}
+
+
+
+
 
 
 
