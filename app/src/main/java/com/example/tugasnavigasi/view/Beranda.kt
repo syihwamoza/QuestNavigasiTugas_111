@@ -40,4 +40,15 @@ fun BerandaScreen(
             fontFamily = FontFamily.Cursive,
             color = Color(0xFF673AB7)
         )
+        Spacer(modifier = Modifier.height(48.dp))
+
+        Image(
+            painter = painterResource(id = R.drawable.download),
+            contentDescription = "Logo Aplikasi Card-List",
+            modifier = Modifier.size(150.dp)
+        )
+
+        Spacer(modifier = Modifier.height(48.dp))
+
+
 
