@@ -75,3 +75,10 @@ fun AplikasiPendaftaranApp(
         }
     }
 }
+private fun kembaliKeBeranda(navController: NavHostController) {
+    navController.navigate(Navigasi.Beranda.name) {
+        popUpTo(Navigasi.Beranda.name) {
+            inclusive = true
+        }
+    }
+}
