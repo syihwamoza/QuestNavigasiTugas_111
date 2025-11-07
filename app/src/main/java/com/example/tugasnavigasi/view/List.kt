@@ -62,5 +62,21 @@ fun ListPesertaScreen(
             Text(text = "Beranda", fontSize = 16.sp)
         }
 
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Button(
+            onClick = onFormulirClick,
+            modifier = Modifier.fillMaxWidth().height(56.dp),
+            shape = RoundedCornerShape(50),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = Color(0xFFD1C4E9),
+                contentColor = Color(0xFF673AB7)
+            )
+        ) {
+            Text(text = "Formulir Pendaftaran", fontSize = 16.sp)
+        }
+    }
+}
+
 
 
