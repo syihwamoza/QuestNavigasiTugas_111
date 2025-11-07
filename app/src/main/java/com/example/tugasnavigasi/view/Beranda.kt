@@ -49,6 +49,21 @@ fun BerandaScreen(
         )
 
         Spacer(modifier = Modifier.height(48.dp))
+        Text(
+            text = "Moza Kastella",
+            fontSize = 20.sp,
+            fontWeight = FontWeight.Medium,
+            color = Color.Black
+        )
+        Text(
+            text = "20230140111",
+            fontSize = 16.sp,
+            color = Color.Gray,
+            textAlign = TextAlign.Center
+        )
+
+        Spacer(modifier = Modifier.weight(1f))
+
 
 
 
