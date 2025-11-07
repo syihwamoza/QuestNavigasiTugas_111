@@ -53,4 +53,14 @@ fun ListPesertaScreen(
 
         Spacer(modifier = Modifier.weight(1f))
 
+        Button(
+            onClick = onBerandaClick,
+            modifier = Modifier.fillMaxWidth().height(56.dp),
+            shape = RoundedCornerShape(50),
+            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF673AB7))
+        ) {
+            Text(text = "Beranda", fontSize = 16.sp)
+        }
+
+
 
