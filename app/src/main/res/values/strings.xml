@@ -6,4 +6,11 @@
     <string name="btn_to_form">Form Pendaftaran</string>
     <string name="btn_to_list">Daftar Peserta</string>
 
+    <string name="form_title">Formulir Pendaftaran</string>
+    <string name="hint_name">Nama Lengkap</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Nomor HP</string>
+    <string name="hint_gender">Pilih Jenis Kelamin</string>
+    <string name="gender_male">Laki-Laki</string>
+    <string name="gender_female">Perempuan</string>
 </resources>
